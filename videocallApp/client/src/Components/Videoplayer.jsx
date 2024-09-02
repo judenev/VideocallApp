@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
 const Videoplayer = () => {
   const { call, callAccepted, myVideo, userVideo,  name, callEnded } = useContext(Socketcontext)
   const classes = useStyles()
-   console.log("kona kona",callAccepted,userVideo,myVideo,callEnded);
+  
   
   return (
     <>
